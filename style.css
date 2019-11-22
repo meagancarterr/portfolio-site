@@ -1,0 +1,32 @@
+/* ----------- Container ----------- */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1640px;
+    margin: 0 auto;
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 100%;
+    padding-top: 76px;
+  }
+
+  .row {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 1640px;
+    margin: 0 auto;
+    padding-right: 24px;
+    padding-left: 24px;
+    width: 100%;
+    padding-top: 60px;
+  }
+
+  .row {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
