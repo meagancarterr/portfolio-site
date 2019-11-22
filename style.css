@@ -225,3 +225,79 @@ html {
   font-size: 15px;
   justify-content: center;
 }
+
+/* ----------- Footer ----------- */
+.container-fluid {
+  background-image: url(./images/20191120_010305.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+
+.contact h1 {
+  font-size: 65px;
+  color: #006994;
+  font-family: 'Parisienne', cursive;
+  margin-bottom: 30px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #006994;
+  border-radius: 25px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.parent-btn {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 24px 48px;
+  color: #fff;
+  background-color: #006994;
+  border: 0;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+.btn:hover {
+  background-color: #4d4d4d;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+@media (max-width: 767px) {
+  .contact h1 {
+    text-align: center;
+  }
+
+  .footerNav {
+    text-align: center;
+  }
+
+  input[type=text],
+  select,
+  textarea {
+    width: 75%;
+  }
+}
