@@ -108,3 +108,63 @@
     margin-top: -15px;
   }
 }
+
+/* ----------- Hero ----------- */
+body,
+html {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero-image {
+  background-image: url("./images/20191120_001925.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  text-align: center;
+  top: 48%;
+  left: 62%;
+}
+
+.hero-text h1 {
+  transform: translate(-50%, -50%);
+  color: #006994;
+  font-family: 'Parisienne', cursive;
+}
+
+@media (min-width: 992px) {
+  .hero-text h1 {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-text h1 {
+    font-size: 80px;
+  }
+}
+
+.hero-text p {
+  transform: translate(-50%, -50%);
+  color: #4d4d4d;
+  margin-top: -25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 992px) {
+  .hero-text p {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-text p {
+    font-size: 30px;
+  }
+}
