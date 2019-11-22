@@ -30,3 +30,81 @@
     margin-bottom: 80px;
   }
 }
+
+/* ----------- Navigation  ----------- */
+.navbar-brand {
+  color: #006994;
+  margin: 0 10px 0 10px;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  height: 60px;
+  font-size: 20px;
+  background-color: #fff;
+  border-bottom: solid 1px #006994;
+  font-family: 'Raleway', sans-serif;
+}
+
+.px-2 {
+  margin: 0 10px 0 10px;
+  color: #006994;
+}
+
+.px-2:hover {
+  color: #4d4d4d;
+}
+
+/* ----------- Navigation LG ----------- */
+@media (min-width: 992px) {
+  #navbarMenu {
+    display: none !important;
+  }
+}
+
+/* ----------- Navigation Collapsed ----------- */
+@media (max-width: 991px) {
+  .navbar-brand,
+  #navbarMenuToggler,
+  .nav-link {
+    line-height: 80px;
+    margin: 0 0 0 0;
+  }
+
+  .navbar {
+    padding: 0 0 0 0;
+    height: 75px;
+  }
+
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+  .nav-link {
+    font-size: 20px;
+    text-align: left;
+    line-height: 20px;
+  }
+
+  .navbar-collapse {
+    position: fixed;
+  }
+
+  .fa-bars {
+    margin-right: 20px;
+  }
+
+  #navbarMenu .nav-link {
+    color: #006994;
+    padding: 12px 0;
+  }
+
+  #navbarMenu .nav-link:hover {
+    color: #4d4d4d;
+  }
+
+  #navbarMenu {
+    margin-top: -15px;
+  }
+}
